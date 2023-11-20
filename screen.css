@@ -1,4 +1,8 @@
 /* Add screen styles below */
+body {
+    margin: 0px;
+}
+
 .backimage {
     width: 100%;
 }
@@ -11,10 +15,7 @@
 }
 
 ul {
+    height: 150px;
     display: flex;
-    flex: row;
     background-color: antiquewhite;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
   }
