@@ -1,6 +1,6 @@
 /* Add screen styles below */
 .backimage {
-    width: 60%;
+    width: 100%;
 }
 
 nav {
@@ -13,6 +13,6 @@ nav {
     box-sizing: border-box;
     background-color: bisque;
     padding: 20%;
-    max-width: 300px;
+    max-width: 150px;
     text-align: center;
 }
