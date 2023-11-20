@@ -8,14 +8,15 @@ body {
 }
 
 .ccard {
-    size: 20% auto;
+    height: 150px;
+    width: 75px;
     border-radius: 5%;
     background-color: bisque;
     text-align: center;
 }
 
 ul {
-    font-size: 20em;
+    font-size: 1.2em;
     margin-top: 0%;
     height: 50px;
     display: flex;
