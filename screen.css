@@ -20,7 +20,7 @@ ul {
     margin-top: 0%;
     height: 50px;
     display: flex;
-    flex: row;
+    flex: 1 30px;
     background-color: antiquewhite;
   }
 
