@@ -1,6 +1,6 @@
 /* Add screen styles below */
 .backimage {
-    width: 100%;
+    width: 80%;
 }
 
 nav {
@@ -12,7 +12,6 @@ nav {
 .ccard {
     box-sizing: border-box;
     background-color: bisque;
-    padding: 20%;
     max-width: 150px;
     text-align: center;
 }
