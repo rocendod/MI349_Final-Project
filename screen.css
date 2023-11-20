@@ -23,3 +23,36 @@ ul {
     flex: row;
     background-color: antiquewhite;
   }
+
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .product-card {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 300px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .product-description {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 1.2em;
+    color: #009688;
+  }
+  
