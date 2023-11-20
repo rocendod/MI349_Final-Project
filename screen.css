@@ -3,12 +3,6 @@
     width: 100%;
 }
 
-.section {
-    display: flex;
-    flex: row;
-    background-color: antiquewhite;
-}
-
 .ccard {
     border-radius: 10%;
     background-color: bisque;
@@ -17,6 +11,9 @@
 }
 
 ul {
+    display: flex;
+    flex: row;
+    background-color: antiquewhite;
     list-style-type: none;
     margin: 0;
     padding: 0;
