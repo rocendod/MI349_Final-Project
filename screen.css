@@ -8,16 +8,17 @@ body {
 }
 
 .ccard {
-    border-radius: 10%;
+    size: 20% auto;
+    border-radius: 5%;
     background-color: bisque;
-    max-width: 200px;
     text-align: center;
 }
 
 ul {
+    font-size: 20em;
     margin-top: 0%;
-    height: 100px;
+    height: 50px;
     display: flex;
+    flex: row;
     background-color: antiquewhite;
-    list-style-position: none;
   }
