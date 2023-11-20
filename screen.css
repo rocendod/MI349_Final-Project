@@ -1,16 +1,16 @@
 /* Add screen styles below */
 .backimage {
-    width: 80%;
+    width: 100%;
 }
 
 nav {
-    display: flexbox;
-    flex-wrap: row;
+    display: flex;
+    flex: row;
     background-color: antiquewhite;
 }
 
 .ccard {
-    box-sizing: border-box;
+    box-sizing: 300px;
     background-color: bisque;
     max-width: 150px;
     text-align: center;
