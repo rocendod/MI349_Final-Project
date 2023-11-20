@@ -3,15 +3,21 @@
     width: 100%;
 }
 
-nav {
+.section {
     display: flex;
     flex: row;
     background-color: antiquewhite;
 }
 
 .ccard {
-    box-sizing: 300px;
+    border-radius: 10%;
     background-color: bisque;
-    max-width: 150px;
+    max-width: 200px;
     text-align: center;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
