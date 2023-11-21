@@ -1,8 +1,12 @@
 /* Add screen styles below */
 h1 {
+  font-size: 2.5em;
   position: absolute;
   bottom: 30px;
   left: 16px;
+}
+a {
+  color: white;
 }
 li {
   list-style-type: none;
