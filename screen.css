@@ -23,6 +23,8 @@ a {
 }
 
 .navbar {
+  width: 100%;
+  z-index: -1;
   position: fixed;
   display: flex;
   flex-direction: row;
