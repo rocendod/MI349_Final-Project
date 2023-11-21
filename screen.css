@@ -1,36 +1,28 @@
 /* Add screen styles below */
 h1 {
   position: absolute;
-  bottom: 8px;
+  bottom: 12px;
   left: 16px;
 }
 li {
-  margin-left: 10px;
+  margin: 80%;
+  margin-left: 20px;
 }
 .backimage {
+  margin-top: 0%;
   max-height: 700px;
   width: 100%;
 }
 .backcontain {
     position: relative;
     text-align: center;
-    color: white;
-}
-.ccard {
-    height: 350px;
-    width: 200px;
-    border-radius: 5%;
-    background-color: bisque;
-    text-align: center;
-}
-.cart {
-  margin-top: 20px;
+    color: black;
 }
 
 ul {
     font-size: 1.2em;
     margin-top: 0%;
-    height: 50px;
+    height: 75px;
     display: flex;
     flex-direction: row;
     background-color: antiquewhite;
@@ -45,14 +37,14 @@ ul {
     text-align: center;
     border: 5px solid #323232;
     padding: 20px;
-    height: 450px;
-    width: 300px;
-    border-radius: 5%;
+    height: 375px;
+    width: 275px;
+    border-radius: 10%;
   }
   
   .product-card img {
     width: 100%;
-    height: auto;
+    height: 200px;
     margin-bottom: 40px;
   }
   
