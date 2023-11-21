@@ -41,7 +41,8 @@ a {
   width: 100px;
 }
 .cart {
-  height: 75px;
+  justify-content: end;
+  height: 65px;
   width: 100px;
 }
 
@@ -72,7 +73,7 @@ body {
   text-align: center;
   border: 5px solid #323232;
   padding: 10px;
-  height: 325px;
+  height: 345px;
   width: 275px;
   border-radius: 5%;
   margin-left: 10px;
@@ -117,5 +118,11 @@ body {
 }
 
 .splayout {
+  margin-top: 75px;
   display: flex;
+}
+
+.card-layout{
+  display: flex;
+  flex-direction: column;
 }
