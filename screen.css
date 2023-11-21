@@ -4,8 +4,10 @@ h1 {
   position: absolute;
   bottom: 30px;
   left: 20px;
+  -webkit-font-smoothing: antialiased;
 }
 h2 {
+  font-size: 2em;
   margin-left: 10px;
 }
 
@@ -38,6 +40,11 @@ a {
   height: 75px;
   width: 100px;
 }
+.cart {
+  height: 75px;
+  width: 100px;
+}
+
 
 li {
   list-style-type: none;
@@ -65,7 +72,7 @@ body {
   text-align: center;
   border: 5px solid #323232;
   padding: 10px;
-  height: 375px;
+  height: 325px;
   width: 275px;
   border-radius: 5%;
   margin-left: 10px;
@@ -81,7 +88,7 @@ body {
 
 .product-description {
   font-weight: bold;
-  margin-bottom: 20px;
+  margin: 2px;
 }
 
 .product-price {
@@ -89,6 +96,7 @@ body {
   color: #009688;
 }
 .card-text {
+  margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -97,4 +105,17 @@ body {
   justify-content: space-evenly;
   margin: 10px;
   padding: 7px;
+}
+
+.filter{
+  box-sizing: content-box;
+  background-color: #555555;
+}
+
+.filterh {
+  color: white;
+}
+
+.splayout {
+  display: flex;
 }
