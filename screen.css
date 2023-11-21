@@ -28,6 +28,7 @@ a {
 }
 
 .navbar {
+  height: 75px;
   width: 100%;
   z-index: 1;
   position: fixed;
@@ -40,10 +41,11 @@ a {
   height: 75px;
   width: 100px;
 }
+
 .cart {
   justify-content: end;
-  height: 65px;
-  width: 100px;
+  height: 55px;
+  width: 80px;
 }
 
 
@@ -111,6 +113,9 @@ body {
 .filter{
   box-sizing: content-box;
   background-color: #555555;
+  height: 400;
+  width: 300px;
+
 }
 
 .filterh {
@@ -118,7 +123,7 @@ body {
 }
 
 .splayout {
-  margin-top: 75px;
+  padding-top: 75px;
   display: flex;
 }
 
