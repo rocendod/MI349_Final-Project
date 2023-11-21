@@ -1,29 +1,37 @@
 /* Add screen styles below */
 h1 {
-  font-size: 2.5em;
+  font-size: 2.8em;
   position: absolute;
   bottom: 30px;
   left: 16px;
 }
+
 a {
   color: white;
 }
+
+.backimage {
+  margin-top: 0%;
+  max-height: 700px;
+  width: 100%;
+}
+
+.backcontain {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
 li {
   list-style-type: none;
   margin-top: 30px;
   margin-left: 20px;
   margin-bottom: 0%;
   color: white;
-}
-.backimage {
-  margin-top: 0%;
-  max-height: 700px;
-  width: 100%;
-}
-.backcontain {
-    position: relative;
-    text-align: center;
-    color: black;
 }
 
 ul {
@@ -33,7 +41,7 @@ ul {
     height: 75px;
     display: flex;
     flex-direction: row;
-    background-color: rgb(44, 68, 140);
+    background-color: rgb(22, 38, 84);
   }
 
   body {
