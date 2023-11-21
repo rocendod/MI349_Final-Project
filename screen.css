@@ -4,13 +4,13 @@ body {
 }
 
 .backimage {
-  max-height: 400px;
+  max-height: 575px;
   width: 100%;
 }
 
 .ccard {
-    height: 150px;
-    width: 75px;
+    height: 350px;
+    width: 200px;
     border-radius: 5%;
     background-color: bisque;
     text-align: center;
@@ -21,7 +21,7 @@ ul {
     margin-top: 0%;
     height: 50px;
     display: flex;
-    flex: 1 75px;
+    
     background-color: antiquewhite;
   }
 
@@ -32,9 +32,11 @@ ul {
   
   .product-card {
     text-align: center;
-    border: 1px solid #ccc;
+    border: 5px solid #323232;
     padding: 20px;
     max-width: 300px;
+    max-height: 550px;
+    border-radius: 5%;
   }
   
   .product-card img {
