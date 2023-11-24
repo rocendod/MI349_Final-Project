@@ -17,9 +17,9 @@ a {
 
 .backimage {
   margin-top: 0%;
-  max-height: 700px;
+  max-height: 800px;
   width: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .backcontain {
