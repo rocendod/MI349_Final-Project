@@ -8,7 +8,7 @@ h1 {
 }
 h2 {
   font-size: 2em;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 a {
@@ -35,6 +35,7 @@ a {
   position: fixed;
   display: flex;
   flex-direction: row;
+  flex: 4 right;
   background-color: rgb(22, 38, 84);
 }
 
@@ -92,7 +93,7 @@ body {
 
 .product-description {
   font-weight: bold;
-  margin-top: 2px;
+  margin-top: 8px;
 }
 
 .product-price {
