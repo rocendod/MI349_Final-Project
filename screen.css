@@ -44,7 +44,9 @@ a {
 }
 
 .Cart {
-  align-self: flex-end;
+  justify-content: end;
+  height: 55px;
+  width: 80px;
 }
 
 
