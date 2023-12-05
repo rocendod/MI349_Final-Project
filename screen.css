@@ -39,7 +39,7 @@ a {
 
 }
 
-.navbar ul:last-child {
+.navbar li:last-child {
   justify-content: end;
 }
 
@@ -138,6 +138,6 @@ body {
 
 }
 
-.men-header {
-  margin: 0%;
+.Men-header {
+  margin-left: 25px;
 }
