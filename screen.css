@@ -39,7 +39,7 @@ a {
 
 }
 
-.navbar li:last-child {
+.navbar ul:last-child {
   margin-left: auto;
 }
 
@@ -114,11 +114,10 @@ body {
 }
 
 .filter{
+  height: 500px;
+  width: 250px;
   box-sizing: content-box;
-  background-color: #555555;
-  height: 400;
-  width: 300px;
-
+  background-color: #727272;
 }
 
 .filterh {
@@ -131,7 +130,11 @@ body {
 }
 
 .card-layout{
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
+}
+
+.men-header {
+  margin: 0%;
 }
