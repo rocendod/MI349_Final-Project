@@ -29,14 +29,13 @@ a {
 }
 
 .navbar {
+  background-color: rgb(22, 38, 84);
+  height: 75px;
+  width: 100%;
   z-index: 1;
   position: fixed;
   display: flex;
   flex-direction: row;
-  background-color: rgb(22, 38, 84);
-  width: 100%;
-  height: 75px;
-
 }
 
 .navbar li:last-child {
@@ -99,7 +98,7 @@ body {
 
 .product-description {
   font-weight: bold;
-  margin-top: 18px;
+  margin-top: 22px;
   font-size: 1.2 em;
 }
 
