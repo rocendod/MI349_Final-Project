@@ -132,7 +132,7 @@ body {
 }
 
 .card-layout{
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -144,12 +144,12 @@ body {
 
 .filter {
   height: 400px;
-  margin-top: 85px;
+  margin-top: 95px;
   border: 1px solid #ccc;
   padding: 20px;
   border-radius: 8px;
   background-color: #f9f9f9;
-  width: 300px;
+  width: 280px;
 }
 
 .filter h2 {
