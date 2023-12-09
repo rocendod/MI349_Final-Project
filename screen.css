@@ -61,12 +61,13 @@ li {
 }
 
 ul {
-    font-size: 1.2em;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    height: 75px;
-    display: flex;
-    flex-direction: row;
+  font-size: 1.2em;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 body {
@@ -114,18 +115,6 @@ body {
   margin: 25px;
   padding: 7px;
 }
-
-.filter{
-  height: 500px;
-  width: 250px;
-  box-sizing: content-box;
-  background-color: #727272;
-}
-
-.filterh {
-  color: white;
-}
-
 .splayout {
   padding-top: 75px;
   display: flex;
@@ -157,6 +146,8 @@ body {
 }
 
 .filter-list {
+  display: flex;
+  flex-direction: column;
   list-style: none;
   padding: 0;
 }
