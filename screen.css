@@ -45,7 +45,7 @@ a {
 }
 
 .logo {
-  height: 100px;
+  height: 85px;
   width: 100px;
 }
 
@@ -79,7 +79,7 @@ body {
 
 .row-section{
   width: auto;
-  margin-top: 110px;
+  margin-top: 85px;
 }
 
 .product-card {
@@ -125,6 +125,7 @@ body {
 .splayout {
   display: flex;
   margin: 0%;
+  width: auto;
 }
 
 .card-layout{
@@ -140,12 +141,13 @@ body {
 }
 
 .filter {
-  margin-top: 110px;
+  height: 40%;
+  margin-top: 85px;
   border: 1px solid #ccc;
   padding: 20px;
   border-radius: 8px;
   background-color: #f9f9f9;
-  width: 350px;
+  width: 300px;
 }
 
 .filter h2 {
