@@ -82,7 +82,7 @@ body {
 }
 
 .row-section {
-  width: auto;
+  width: 100%;
   margin-top: 85px;
 }
 
@@ -136,8 +136,7 @@ body {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
-  width: 75%;
-
+  width: 100%;
 }
 
 .Men-header {
@@ -145,7 +144,7 @@ body {
 }
 
 .filter {
-  height: 60%;
+  height: 400px;
   margin-top: 85px;
   border: 1px solid #ccc;
   padding: 20px;
