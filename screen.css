@@ -63,6 +63,7 @@ a {
 }
 
 li {
+  text-decoration: none;
   list-style-type: none;
 }
 
@@ -138,7 +139,7 @@ body {
 }
 
 .Men-header {
-  margin-left: 10px;
+  margin-left: 20px;
   margin-bottom: 0%;
 }
 
@@ -146,7 +147,7 @@ body {
   height: 400px;
   margin-top: 95px;
   border: 1px solid #ccc;
-  padding: 20px;
+  padding: 10px;
   border-radius: 8px;
   background-color: #f9f9f9;
   width: 280px;
