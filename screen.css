@@ -30,7 +30,7 @@ a {
 
 .navbar {
   background-color: rgb(22, 38, 84);
-  height: 75px;
+  height: 85px;
   width: 100%;
   z-index: 1;
   position: fixed;
@@ -117,7 +117,6 @@ body {
   padding: 7px;
 }
 .splayout {
-  padding-top: 75px;
   display: flex;
   margin: 0%;
 }
