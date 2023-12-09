@@ -38,7 +38,7 @@ a {
   flex-direction: row;
 }
 
-.cart-layout{
+.cart-layout {
   margin-left: auto;
 }
 
@@ -51,9 +51,6 @@ a {
   height: 75px;
   width: 75px;
 }
-
-
-
 
 li {
   list-style-type: none;
