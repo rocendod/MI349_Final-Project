@@ -38,9 +38,8 @@ a {
   flex-direction: row;
 }
 
-.navbar li:last-child {
-  margin: 0%;
-  justify-content: end;
+.cart-layout{
+  margin-left: auto;
 }
 
 .logo {
@@ -114,7 +113,7 @@ body {
 .cardrow {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 20px;
+  margin-top: 30px;
   margin: 25px;
   padding: 7px;
 }
@@ -146,4 +145,38 @@ body {
 
 .Men-header {
   margin-left: 25px;
+}
+
+.filter {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 300px;
+}
+
+.filter h2 {
+  margin-bottom: 10px;
+}
+
+.filter-list {
+  list-style: none;
+  padding: 0;
+}
+
+.filter-list li {
+  margin-bottom: 8px;
+}
+
+.filter-list a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.filter-list a:hover {
+  background-color: #ddd;
 }
