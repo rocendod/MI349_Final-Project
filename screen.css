@@ -9,7 +9,6 @@ h1 {
 h2 {
   font-size: 2em;
   margin-left: 15px;
-  margin-bottom: 0%;
 }
 
 a {
@@ -139,7 +138,8 @@ body {
 }
 
 .Men-header {
-  margin-left: 25px;
+  margin-left: 10px;
+  margin-bottom: 0%;
 }
 
 .filter {
